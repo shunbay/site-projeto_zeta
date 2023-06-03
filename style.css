@@ -1,0 +1,274 @@
+/* Estilização geral */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 4;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilização do header */
+  
+  header {
+    background-color: #FFFB00;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #8F98FF;
+    color: #FFFFFF;
+  }
+  
+  /* Estilização das páginas específicas pode ser adicionada conforme necessário */
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFFB00;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #8F98FF;
+    color: #FFFFFF;
+  }
+
+  .donate-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFFB00;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 9999;
+  }
+  
+  .donate-text {
+    margin: 5px 0;
+  }
+  
+  .donate-button {
+    background-color: #8F98FF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .donate-button:hover {
+    background-color: #716dff;
+  }
+  #lembre-se {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #lembre-se h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #lembre-se p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #lembre-se ul {
+    list-style-type: disc;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  #lembre-se li {
+    margin-bottom: 5px;
+  }
+  
+---------------
+/* Estilos padrão para dispositivos desktop */
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    /* Coloque aqui os estilos específicos para dispositivos móveis */
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Coloque aqui os estilos específicos para tablets */
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para dispositivos de tela pequena */
+  @media only screen and (max-width: 480px) {
+    /* Coloque aqui os estilos específicos para dispositivos de tela pequena */
+    body {
+      font-size: 12px;
+    }
+  }
+  
+  /* Outras media queries para diferentes tamanhos de tela */
+-------
+#estudo-fundamentos {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  #estudo-fundamentos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #estudo-fundamentos p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #estudo-fundamentos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  #estudo-fundamentos table th,
+  #estudo-fundamentos table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #estudo-fundamentos table th {
+    font-weight: bold;
+  }
+  
+  #estudo-fundamentos ul {
+    margin-bottom: 15px;
+  }
+  
+  #estudo-fundamentos li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #estudo-fundamentos p:last-child {
+    margin-bottom: 0;
+  }
+----------
+#dicas {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  #dicas h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #dicas p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #dicas ul {
+    margin-bottom: 15px;
+  }
+  
+  #dicas li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #dicas p:last-child {
+    margin-bottom: 0;
+  }
+  -------------
+  #exercicios-construcao-frases {
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  #exercicios-construcao-frases h2 {
+    color: #333;
+  }
+  
+  #exercicios-construcao-frases p {
+    margin-bottom: 10px;
+  }
+  
+  #exercicios-construcao-frases h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #exercicios-construcao-frases ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #exercicios-construcao-frases li {
+    margin-bottom: 10px;
+  }
+  
+  #exercicios-construcao-frases span {
+    font-weight: bold;
+  }
+  ------------
+  /* Estilo da seção de introdução */
+section#introducao {
+    margin-bottom: 20px;
+  }
+  
+    
